@@ -6,7 +6,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + '/'} element={<Main />} />
+        <Route path='/portfolios' element={<Main />} />
       </Routes>
     </Router>
   );
