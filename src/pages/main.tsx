@@ -13,7 +13,9 @@ const Main = () => {
           <Link to='/instaclone/'>인스타그램 클론 코딩</Link>
         </Button>
         <Button variant='contained'>
-          <Link to='/movieapp/'>영화 웹 어플리케이션</Link>
+          <Link to='https://timcodejs.github.io/react-typescript-movie-app/'>
+            영화 웹 어플리케이션
+          </Link>
         </Button>
       </Stack>
     </ListStyled>
