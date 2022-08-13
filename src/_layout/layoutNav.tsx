@@ -40,9 +40,9 @@ const NavStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 98vh;
   .navdiv {
-    margin: 0 100px;
+    margin: 0 5%;
   }
   h1 {
     margin: 0;
