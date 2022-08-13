@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from '@emotion/styled';
 import LayoutNav from '../_layout/layoutNav';
 
@@ -6,7 +5,7 @@ const Main = () => {
   return (
     <LayoutNav>
       <ListStyled>
-        <div className=''>
+        <div className='about'>
           <h3>About</h3>
           <p>
             안녕하세요. 사용자 경험을 중시하는 프론트엔드 개발자 이태원입니다.
@@ -60,6 +59,9 @@ const Main = () => {
 export default Main;
 
 const ListStyled = styled.div`
+  .about p {
+    line-height: 23px;
+  }
   .work p {
     margin: 5px 0;
   }

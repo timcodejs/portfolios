@@ -1,4 +1,3 @@
-import React from 'react';
 import Main from './pages/main';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Pdf from './pages/pdf';

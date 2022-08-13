@@ -5,9 +5,9 @@ import styled from 'styled-components';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Pdf = () => {
-  const [numPages, setNumPages] = useState(null); // 총 페이지수
-  const [pageNumber, setPageNumber] = useState(1); // 현재 페이지
-  const [pageScale, setPageScale] = useState(1); // 페이지 스케일
+  const [numPages, setNumPages] = useState<number | null>(null); // 총 페이지수
+  const [pageNumber, setPageNumber] = useState<number>(1); // 현재 페이지
+  const [pageScale, setPageScale] = useState<number>(1); // 페이지 스케일
 
   function onDocumentLoadSuccess({ numPages }: any) {
     console.log(`numPages ${numPages}`);
