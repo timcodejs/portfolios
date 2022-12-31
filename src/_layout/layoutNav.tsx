@@ -22,10 +22,10 @@ const LayoutNav = ({ children }: React.PropsWithChildren) => {
         </ul>
         <div className='skill'>
           <h3>Skills</h3>
-          <p>HTML5, CSS3, JavaScript</p>
-          <p>React, Redux</p>
-          <p>ES6+, TypeScript</p>
-          <p>styled-components</p>
+          <p>HTML5, CSS3, JS, TS</p>
+          <p>React, Redux, Recoil, Axios</p>
+          <p>React-hook-form, yup</p>
+          <p>styled-components, emotion</p>
           <p></p>
         </div>
       </div>
